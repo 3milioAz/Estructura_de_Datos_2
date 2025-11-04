@@ -1,4 +1,4 @@
-package com.mx.ux.unidad2;
+package com.mx.ux.unidad2.exposiciones;
 
 public class burbuja {
     public static void main(String[] args) {

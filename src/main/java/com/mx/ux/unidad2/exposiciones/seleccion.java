@@ -1,4 +1,4 @@
-package com.mx.ux.unidad2;
+package com.mx.ux.unidad2.exposiciones;
 
 import java.util.Arrays;
 

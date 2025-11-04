@@ -1,13 +1,13 @@
-package com.mx.ux.unidad2;
+package com.mx.ux.unidad2.practicas;
 
 import java.util.Arrays;
 
-public class Inserccion {
+public class alertas_fraudes {
 
-    public static void insertionSort(int[] arr) {
+    public static void insertionSort(float[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; i++) {
-            int key = arr[i];
+            float key = arr[i];
             int j = i - 1;
             while (j >= 0 && arr[j] > key) {
                 arr[j + 1] = arr[j];
@@ -18,7 +18,7 @@ public class Inserccion {
     }
 
     public static void main(String[] args) {
-        int[] datos = {70, 33, 80};
+        float[] datos = {.45f, .87f, .23f, .91f, .66f, .12f, .78f, .34f, .59f, .99f};
 
         System.out.println("Arreglo original:");
         System.out.println(Arrays.toString(datos));
