@@ -56,7 +56,7 @@ public class MergeSort {
 
     // M�todo principal (main)
     public static void main(String[] args) {
-        int[] numeros = {38, 27, 43, 3, 9, 82, 10};
+        int[] numeros = {3, 10, 1, 5, 8};
         int[] ordenados = mergeSort(numeros);
 
         System.out.print("Lista ordenada: ");

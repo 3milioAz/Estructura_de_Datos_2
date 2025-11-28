@@ -6,7 +6,7 @@ public class seleccion {
 
     public static void main(String[] args) {
         // Lista con las puntuaciones de importancia
-        int[] importancias = {75, 20, 55, 40, 90, 10, 60, 30};
+        int[] importancias = {12, 3, 18, 5, 9};
         System.out.println("Características no ordenadas:");
         System.out.println(Arrays.toString(importancias));
         int n = importancias.length;
@@ -14,7 +14,7 @@ public class seleccion {
         for (int i = 0; i < n; i++) {
             int maximo = i;
             for (int j = i + 1; j < n; j++) {
-                if (importancias[j] > importancias[maximo]) {
+                if (importancias[j] < importancias[maximo]) {
                     maximo = j;
                 }
             }

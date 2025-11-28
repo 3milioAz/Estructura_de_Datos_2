@@ -2,7 +2,7 @@ package com.mx.ux.unidad2.exposiciones;
 
 public class burbuja {
     public static void main(String[] args) {
-        int[] numeros = {5, 2, 9, 1, 5, 6};
+        int[] numeros = {9, 3, 5, 1, 7};
         bubbleSort(numeros);
 
         System.out.print("Lista ordenada: ");
